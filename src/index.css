@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base Layer: Theme Variables & Global Resets ─────────────────────────────────── */
+@layer base {
+  :root {
+    --background: 0 0% 100%;       /* White */
+    --foreground: 220 10% 3.9%;    /* Dark text */
+
+    --card: 0 0% 100%;             /* White */
+    --card-foreground: 220 10% 3.9%;
+
+    --popover: 0 0% 100%;          /* White */
+    --popover-foreground: 220 10% 3.9%;
+
+    --primary: 142 60% 57%;        /* Updated to bright green */
+    --primary-foreground: 0 0% 100%; /* White text on green */
+
+    --secondary: 0 0% 96.1%;       /* Light silver */
+    --secondary-foreground: 220 10% 3.9%;
+
+    --muted: 0 0% 96.1%;           /* Light silver */
+    --muted-foreground: 220 10% 36.9%;
+
+    --accent: 142 60% 57%;         /* Updated to bright green */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 142 60% 57%;           /* Updated to bright green */
+    --radius: 0.5rem;
+  }
+
+  /* Reset borders uniformly */
+  *, *::before, *::after {
+    @apply border-border;
+  }
+
+  /* Base typography */
+  body {
+    @apply bg-background text-foreground font-sans;
+    margin: 0;
+    padding-top: env(safe-area-inset-top, 0);
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    @apply font-naskh;
+  }
+
+  /* Remove WebKit Scrollbars everywhere */
+  ::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  /* Firefox Scrollbar - complete removal */
+  html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+}
+
+/* ── Custom Utility Classes ─────────────────────────────────────────────────── */
+@layer utilities {
+  .section-padding {
+    @apply py-16 md:py-20 px-4;
+  }
+}
+
+/* ── Decorative Patterns & Gradients ────────────────────────────────────────────────── */
+.pattern-bg {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.hero-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%234AD66D' fill-opacity='0.1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4z'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.hero-text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
