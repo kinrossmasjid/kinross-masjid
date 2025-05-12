@@ -78,8 +78,8 @@ const Contact = () => {
     {
       icon: <Mail size={32} className="text-jamaat-darkGreen" />,
       title: "Email",
-      details: "kinrossmasjiddev@gmail.com",
-      link: "mailto:kinrossmasjiddev@gmail.com"
+      details: "kinrossmuslimjamaat@gmail.com",
+      link: "mailto:kinrossmuslimjamaat@gmail.com"
     },
     {
       icon: <MapPin size={32} className="text-jamaat-darkGreen" />,

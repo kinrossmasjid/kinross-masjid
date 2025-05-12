@@ -5,30 +5,12 @@ import FundraiserCard, { FundraiserProps } from "./FundraiserCard";
 const fundraisers: FundraiserProps[] = [
   {
     id: "1",
-    title: "Masjid Expansion Project",
-    description: "Help us expand our masjid to accommodate our growing community. Funds will be used for construction materials and labor.",
+    title: "Ladies Jamaat Khana Project",
+    description: "Help us raise money to establish a dedicated jamaat khana for the ladies in our community.",
     goalAmount: 500000,
-    currentAmount: 320000,
+    currentAmount: 0,
     imageUrl: "https://islammessage.org/assets/defaults/default-center-image.jpeg",
     endDate: "2025-08-30",
-  },
-  {
-    id: "2",
-    title: "Ramadaan Food Drive",
-    description: "Support our annual Ramadaan food distribution program for families in need in our community.",
-    goalAmount: 75000,
-    currentAmount: 45000,
-    imageUrl: "https://muslimaid-2022.storage.googleapis.com/upload/img_cache/file-23804-e660b527cee4dd443d4f8983dbfe9d44.jpg",
-    endDate: "2025-07-15",
-  },
-  {
-    id: "3",
-    title: "Islamic Education Scholarships",
-    description: "Help fund scholarships for underprivileged children to receive Islamic education at our madrasa.",
-    goalAmount: 100000,
-    currentAmount: 35000,
-    imageUrl: "https://miro.medium.com/v2/resize:fit:5432/1*cjvRWZD1TwTZ4wHTt9zMmw.jpeg",
-    endDate: "2025-09-01",
   }
 ];
 
@@ -55,7 +37,7 @@ const FundraiserSection = ({
         <p className="text-gray-600 max-w-2xl mx-auto">{description}</p>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6">
         {displayedFundraisers.map((fundraiser) => (
           <FundraiserCard key={fundraiser.id} {...fundraiser} />
         ))}

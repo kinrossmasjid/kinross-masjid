@@ -46,13 +46,6 @@ const FundraiserCard = ({
       )}
       <CardHeader className="pb-2">
         <CardTitle className="text-xl text-jamaat-darkGreen">{title}</CardTitle>
-        {endDate && (
-          <CardDescription>
-            <span className="text-sm text-red-600 font-medium">
-              Ends on {new Date(endDate).toLocaleDateString()}
-            </span>
-          </CardDescription>
-        )}
       </CardHeader>
       <CardContent className="flex-grow flex flex-col">
         <p className="text-gray-600 mb-4 text-sm flex-grow">{description}</p>
@@ -82,5 +75,15 @@ const FundraiserCard = ({
     </Card>
   );
 };
+
+/*
+        {endDate && (
+          <CardDescription>
+            <span className="text-sm text-red-600 font-medium">
+              Ends on {new Date(endDate).toLocaleDateString()}
+            </span>
+          </CardDescription>
+        )}
+*/
 
 export default FundraiserCard;

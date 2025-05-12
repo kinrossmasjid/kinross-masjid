@@ -79,10 +79,10 @@ const Footer = () => {
                 <MapPin size={16} className="mr-2 mt-0.5 flex-shrink-0 text-jamaat-darkGreen" />
                 <span>Magnolia St, Evander, 2270, South Africa</span>
               </a>
-              <a href="mailto:kinrossmasjiddev@gmail.com" 
+              <a href="mailto:kinrossmuslimjamaat@gmail.com" 
                  className="flex items-center hover:text-jamaat-black transition-colors md:justify-center justify-center">
                 <Mail size={16} className="mr-2 flex-shrink-0 text-jamaat-darkGreen" />
-                <span>kinrossmasjiddev@gmail.com</span>
+                <span>kinrossmuslimjamaat@gmail.com</span>
               </a>
             </div>
           </div>
