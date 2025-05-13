@@ -119,7 +119,7 @@ const Contact = () => {
                       <div className="p-2 rounded-full bg-jamaat-silver">{item.icon}</div>
                     </div>
                     <h3 className="font-semibold text-gray-800 mb-2">{item.title}</h3>
-                    <p className="text-gray-600">{item.details}</p>
+                    <p className="text-gray-600 break-words">{item.details}</p>
                   </a>
                 </CardContent>
               </Card>
