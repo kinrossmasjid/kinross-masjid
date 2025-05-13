@@ -20,7 +20,7 @@ const Hero = () => {
     },
     {
       desktop: "/lovable-uploads/69d77831-b317-419d-ac91-7e9c130902ec.png",
-      mobile: "/IntCeiling2.0.jpg",
+      mobile: "/IntCeiling2.0.png",
     },
     {
       desktop: "/lovable-uploads/94e0e701-8157-49e7-b9b5-29afadab6f3d.png",
