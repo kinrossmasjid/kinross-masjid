@@ -1,14 +1,14 @@
 
 import FundraiserCard, { FundraiserProps } from "./FundraiserCard";
 
-// Sample fundraiser data
+// Fundraiser data
 const fundraisers: FundraiserProps[] = [
   {
     id: "1",
     title: "Ladies Jamaat Khana Project",
     description: "Help us raise money to establish a dedicated jamaat khana for the ladies in our community.",
-    goalAmount: 500000,
-    currentAmount: 0,
+    goalAmount: 400000,
+    currentAmount: 70000,
     imageUrl: "https://islammessage.org/assets/defaults/default-center-image.jpeg",
     endDate: "2025-08-30",
   }

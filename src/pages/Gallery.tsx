@@ -6,24 +6,51 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 const galleryItems = [
   {
     id: 1,
-    title: "Masjid front entrance at sunset",
-    src: "/lovable-uploads/3c1b254d-b9ac-467b-8570-639ccc855463.png",
-    description: "The beautiful JAAMIA MASJID entrance with golden sunset lighting, featuring lush palm trees and a prominent minaret.",
-    lowResSrc: "/lovable-uploads/3c1b254d-b9ac-467b-8570-639ccc855463.png", // Using same src as placeholder - in production should use actual thumbnails
+    title: "Main Entrance of the masjid",
+    src: "/ExtEntrance2.0.jpg",
+    description: "The beautiful JAAMIA MASJID entrance with golden sunset lighting, featuring lush palm trees and flowers.",
   },
   {
     id: 2,
-    title: "Side view of the masjid",
-    src: "/lovable-uploads/3d7a69dd-c9a8-44a7-8415-29d75d19cc22.png",
-    description: "Side view of our masjid showing the elegant minaret and palm trees against a dramatic sunset sky.",
-    lowResSrc: "/lovable-uploads/3d7a69dd-c9a8-44a7-8415-29d75d19cc22.png",
+    title: "Exterior garden view",
+    src: "/ExtGarden2.0.jpg",
+    description: "A serene view of the masjid's exterior garden, showcasing the lush greenery and tranquil atmosphere.",
   },
   {
     id: 3,
     title: "Masjid Interior",
-    src: "/lovable-uploads/fbae664b-21f4-4491-8907-494ff31261a8.png",
-    description: "Our beautifully designed prayer hall featuring elegant wooden details, decorative ceiling with recessed lighting, and traditional Islamic calligraphy.",
-    lowResSrc: "/lovable-uploads/fbae664b-21f4-4491-8907-494ff31261a8.png",
+    src: "/IntMasjid1-2.0.jpg",
+    description: "Our beautifully designed masjid featuring elegant wooden details, decorative ceiling with recessed lighting, and traditional Islamic calligraphy.",
+  },
+  {
+    id: 4,
+    title: "Masjid Interior",
+    src: "/IntMasjid2-2.0.jpg",
+    description: "Our beautifully designed masjid featuring elegant wooden details, decorative ceiling with recessed lighting, and traditional Islamic calligraphy.",
+  },
+  {
+    id: 5,
+    title: "Wudhu khana",
+    src: "/IntWudhu2.0.jpg",
+    description: "The wudhu khana (ablution area) of the masjid, designed for comfort and convenience.",
+  },
+  {
+    id: 6,
+    title: "Madressa",
+    src: "/ExtMadressah2.0.jpg",
+    description: "The madressa (Islamic school) building, designed to provide a conducive learning environment for students.",
+  },
+  {
+    id: 7,
+    title: "Hall",
+    src: "/ExtHall2.0.jpg",
+    description: "Our community hall, designed for community gatherings and events. Contact us for booking inquiries.",
+  },
+  {
+    id: 8,
+    title: "Beautiful masjid ceiling",
+    src: "/IntCeiling2.0.png",
+    description: "A close-up view of the masjid's beautifully designed ceiling, showcasing intricate patterns and details.",
   }
 ];
 
@@ -101,7 +128,7 @@ const Gallery = () => {
                 className="overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border-jamaat-darkGreen/20 bg-white"
                 onClick={() => openImage(item.id)}
               >
-                <CardContent className="p-0 aspect-video relative">
+                <CardContent className="p-0 aspect-[3/4] relative">
                   <img
                     src={item.src}
                     alt={item.title}

@@ -34,7 +34,7 @@ const FundraiserCard = ({
   };
 
   return (
-    <Card className="overflow-hidden border-jamaat-darkGreen/20 shadow-lg flex flex-col h-full">
+    <Card className="overflow-hidden border-jamaat-darkGreen/20 shadow-lg flex flex-col h-full max-w-md md:mx-auto w-full">
       {imageUrl && (
         <div className="aspect-video w-full overflow-hidden">
           <img 

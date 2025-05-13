@@ -41,7 +41,7 @@ const Index = () => {
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="/lovable-uploads/be5d0550-9946-4c7b-b0c9-1d8733f78124.png" 
+                src="/ExtEntranceForAbout.jpg" 
                 alt="Kinross Jaamia Masjid" 
                 className="w-full h-auto object-cover"
                 loading="lazy"
@@ -80,9 +80,9 @@ const Index = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="rounded-lg overflow-hidden shadow-lg h-64">
+            <div className="rounded-lg overflow-hidden shadow-lg aspect-[3/4]">
               <img 
-                src="/lovable-uploads/aa56aa83-0095-4e2e-b17c-66d24bae4a51.png" 
+                src="/IntMasjid1-2.0.jpg" 
                 alt="Masjid View 1" 
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -91,9 +91,9 @@ const Index = () => {
                 height="256"
               />
             </div>
-            <div className="rounded-lg overflow-hidden shadow-lg h-64">
+            <div className="rounded-lg overflow-hidden shadow-lg aspect-[3/4]">
               <img 
-                src="/lovable-uploads/5c2f0786-9561-417a-a056-62352fd51094.png" 
+                src="/ExtEntrance2.0.jpg" 
                 alt="Masjid View 2" 
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -102,9 +102,9 @@ const Index = () => {
                 height="256"
               />
             </div>
-            <div className="rounded-lg overflow-hidden shadow-lg h-64">
+            <div className="rounded-lg overflow-hidden shadow-lg aspect-[3/4]">
               <img 
-                src="/lovable-uploads/5d6e39b7-99ed-44d8-95ea-42e88bf3d6d8.png" 
+                src="/ExtGarden2.0.jpg" 
                 alt="Masjid View 3" 
                 className="w-full h-full object-cover"
                 loading="lazy"

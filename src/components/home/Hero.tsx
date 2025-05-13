@@ -16,15 +16,23 @@ const Hero = () => {
   const slides = [
     {
       desktop: "/lovable-uploads/33cb5969-a59d-4a08-a862-0a0fcd1d98e7.png",
-      mobile: "/lovable-uploads/2ca0c9e7-c15a-4630-bbfd-be016ca4600f.png",
+      mobile: "/ExtEntrance2.0.jpg",
     },
     {
       desktop: "/lovable-uploads/69d77831-b317-419d-ac91-7e9c130902ec.png",
-      mobile: "/lovable-uploads/39fd4e64-7564-4bcd-8176-1450efdff25f.png",
+      mobile: "/IntCeiling2.0.jpg",
     },
     {
       desktop: "/lovable-uploads/94e0e701-8157-49e7-b9b5-29afadab6f3d.png",
-      mobile: "/lovable-uploads/298671a3-e6ff-4546-ae72-a8906d6042ad.png",
+      mobile: "/IntMasjid1-2.0.jpg",
+    },
+    {
+      desktop: "/lovable-uploads/94e0e701-8157-49e7-b9b5-29afadab6f3d.png",
+      mobile: "/ExtGarden2.0.jpg",
+    },
+    {
+      desktop: "/lovable-uploads/94e0e701-8157-49e7-b9b5-29afadab6f3d.png",
+      mobile: "/IntMasjid2-2.0.jpg",
     },
   ];
 
