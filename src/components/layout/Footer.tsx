@@ -107,9 +107,10 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-jamaat-darkGreen/30 mt-4 pt-4 text-center">
-          <p className="text-sm text-black">
+          <p className="text-sm text-black mb-2">
             © {currentYear} Kinross Muslim Jamaat. All rights reserved.
           </p>
+          <p className="text-black">Powered By <span className="text-green-600 font-bold">ScaleUp</span></p>
         </div>
       </div>
     </footer>
